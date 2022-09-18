@@ -37,8 +37,8 @@
                         android:id="@+id/nama_card"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="28dp"
-                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="20dp"
                         android:text="TextView"
                         app:layout_constraintStart_toEndOf="@+id/cardView"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -55,12 +55,11 @@
 
                     <TextView
                         android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="28dp"
+                        android:layout_width="38dp"
+                        android:layout_height="21dp"
                         android:layout_marginTop="16dp"
                         android:text="Usia : "
-                        app:layout_constraintStart_toEndOf="@+id/cardView"
+                        app:layout_constraintStart_toStartOf="@+id/nama_card"
                         app:layout_constraintTop_toBottomOf="@+id/jenis_card" />
 
                     <TextView
@@ -92,7 +91,7 @@
                         android:id="@+id/edit_hewan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="28dp"
+                        android:layout_marginStart="24dp"
                         android:layout_marginTop="12dp"
                         android:backgroundTint="#4CAF50"
                         android:text="EDIT"
