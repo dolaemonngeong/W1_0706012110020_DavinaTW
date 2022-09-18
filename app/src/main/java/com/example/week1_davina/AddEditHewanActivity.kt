@@ -145,7 +145,6 @@ class AddEditHewanActivity : AppCompatActivity() {
                 finish()
             } else {
                 GlobalVar.listDataHewan[position] = hewan
-                Toast.makeText(this, "tes123", Toast.LENGTH_SHORT).show()
             }
             finish()
         }
