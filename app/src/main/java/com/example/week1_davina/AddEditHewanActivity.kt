@@ -31,7 +31,6 @@ class AddEditHewanActivity : AppCompatActivity() {
 
                 }
             }
-            //code
 
             viewBind.foto.setImageURI(uri)  // MENAMPILKAN DI IMAGE VIEW
             photoHewan = uri.toString()
@@ -116,7 +115,7 @@ class AddEditHewanActivity : AppCompatActivity() {
     private fun Checking(){
         var isCompleted:Boolean = true
 
-        //judul film
+        //nama hewan
         if(hewan.nama!!.isEmpty()){
             viewBind.namaInput.error = "Tolong isi nama hewannya"
             isCompleted = false
@@ -124,7 +123,7 @@ class AddEditHewanActivity : AppCompatActivity() {
             viewBind.namaInput.error = ""
         }
 
-        //rating film
+        //jenis hewan
         if(hewan.jenis!!.isEmpty()){
             viewBind.jenisInput.error = "Tolong isi jenis hewan"
             isCompleted = false
@@ -132,7 +131,7 @@ class AddEditHewanActivity : AppCompatActivity() {
             viewBind.jenisInput.error = ""
         }
 
-        //genre film
+        //usia hewan
         if(hewan.usia!!.isEmpty()){
             viewBind.usiaInput.error = "Tolong isi usia hewannya"
             isCompleted = false

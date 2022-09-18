@@ -64,44 +64,13 @@ class MainActivity : AppCompatActivity(), CardListener {
                     dialog.dismiss()
                 }.create().show()
 
-//            showAlertDialog(position)
-//            GlobalVar.listDataHewan.removeAt(position)
-//
-//            val keMainIntent = Intent(this, MainActivity::class.java)
-//            startActivity(keMainIntent)
-//            Toast.makeText(this, "Berhasil dihapus", Toast.LENGTH_SHORT).show()
-            //finish()
         }
         if(id == "edit"){
             val keAddEditIntent = Intent(this, AddEditHewanActivity::class.java).putExtra("buatEdit", position)
             startActivity(keAddEditIntent)
 
-            //finish()
         }
     }
 
-//    private fun showAlertDialog(position: Int){
-//        val builder = AlertDialog.Builder(this)
-//        builder.setTitle("Hapus")
-//        builder.setMessage("Apakah anda yakin ingin menghapusnya?")
-//        builder.setIcon(android.R.drawable.ic_dialog_alert)
-//
-//        builder.setPositiveButton("Ya") { dialogInterface, which ->
-//            Toast.makeText(applicationContext, "yes bershasil dihapus :)", Toast.LENGTH_SHORT).show()
-//            GlobalVar.listDataHewan.removeAt(position)
-//
-//            val keMainIntent = Intent(this, MainActivity::class.java)
-//            startActivity(keMainIntent)
-//            Toast.makeText(this, "Berhasil dihapus", Toast.LENGTH_SHORT).show()
-//        }
-//
-//        builder.setNegativeButton("Tidak") { dialogInterface, which ->
-//            dialogInterface.dismiss()
-//        }
-//
-//        val alertDialog: AlertDialog = builder.create()
-//        alertDialog.setCancelable(false) //biar user tidak bisa pencet di luar alert dialog
-//        alertDialog.show() //menampilkan alert dialog
-//    }
 
 }

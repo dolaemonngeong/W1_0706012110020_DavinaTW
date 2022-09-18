@@ -62,23 +62,4 @@ class ListDataAdaptor(val listHewan: ArrayList<Hewan>, val cardListener: CardLis
         return listHewan.size
     }
 
-//    fun Listener(){
-
-//        edith.setOnClickListener {
-//            val keAddIntent = Intent(this, AddMovieActivity::class.java).apply {
-//                putExtra("buatEdit", position)
-//            }
-//            startActivity(keAddIntent)
-//            finish()
-//        }
-//        viewBind.deletetombol.setOnClickListener {
-//            GlobalVar.listDataFilm.removeAt(position)
-//
-//            val keMainIntent = Intent(this, MainActivity::class.java)
-//            startActivity(keMainIntent)
-//            Toast.makeText(this, "Movie has been deleted", Toast.LENGTH_SHORT).show()
-//            finish()
-//
-//        }
-
 }
